@@ -184,7 +184,7 @@ footer {
     }
 
     .name {
-        font-size:55px;
+        font-size:50px;
     }
 
     .profile-pic {
@@ -238,6 +238,6 @@ footer {
     .icon {
         height:50px;
         width:50px;
-        padding-left:80px;
+        padding-left:100px;
     }
 }
