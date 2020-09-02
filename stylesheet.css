@@ -184,7 +184,7 @@ footer {
     }
 
     .name {
-        font-size:30px;
+        font-size:50px;
     }
 
     .profile-pic {
@@ -222,7 +222,7 @@ footer {
  
     .skills{
         padding:10px;
-        width: 70%;
+        width: 75%;
     }
 
     .skills-title {
