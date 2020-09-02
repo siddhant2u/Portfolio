@@ -1,0 +1,219 @@
+* {
+    margin:0px;
+    text-align: center;
+  }
+
+header {
+    padding: 20px;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 120px;
+    color: white;
+    font-family: 'Sacramento', cursive;
+}
+
+.nickname {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: rgb(245, 199, 208);
+}
+
+.profile-pic {
+    height: 15%;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+main {
+    margin:auto;
+    height: auto;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    padding: 20px;
+}
+
+.hello {
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    color: #e6e224;
+}
+
+.myself {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding: 20px;
+    line-height: 2;
+}
+
+.about {
+    padding: 40px;
+    font-family: 'Merriweather', serif;
+    padding-right: 300px;
+    padding-left: 300px;
+    line-height: 2;
+}
+
+.about h2 {
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+    font-size: 40px;
+}
+
+.about p {
+    color:white;
+}
+
+.about a {
+    color:rgb(186, 215, 238);
+}
+
+.myskills {
+    display: flex;
+}
+
+.skills {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    width: 50%;
+    background-color: rgba(247, 182, 17, 0.705);
+    font-family: 'Merriweather', serif;
+}
+
+.skills-title {
+    display: inline-block;
+    font-size: 30px; /*title ka size change nahi ho raha*/
+    font-family: 'Merriweather', serif;
+    padding:20px;
+    font-weight: bold;
+    color: rgb(136, 13, 13);
+}
+
+.skills-heading {
+    display:block;
+    font-size:60px;
+    color:white;
+    font-family: 'Merriweather', serif;
+    padding:20px;
+    color: rgb(247, 182, 17);
+}
+
+.skill {
+    display: inline-block;
+    font-size:20px;
+    line-height: 2;
+    padding:10px;
+    padding-top:30px;
+}
+
+.icon {
+    height:80px;
+    width:90px;
+    padding-left:145px; /*icon centre p nahi jaa raha tha*/
+}
+
+.contact {
+    padding:50px;
+}
+
+.contact-me {
+    font-size: 40px;
+    padding: 10px;
+    color: yellowgreen;
+}
+
+.contact p {
+    font-size: 20px;
+    padding: 10px;
+    color: wheat;
+}
+
+.linkedin, .twitter, .gmail, .github{
+    font-size: 20px;
+    display:inline-block;
+    background-color: rgb(241, 77, 55);
+    padding:20px;
+    margin:20px;
+    border-radius: 10%;
+    width:80px;
+}
+
+.linkedin:hover, .twitter:hover, .gmail:hover, .github:hover{
+    background-color: rgb(243, 28, 0);
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(138, 255, 245);
+}
+
+footer {
+    height:100px;
+    background-color: darkcyan;
+}
+
+.copyright {
+    padding-top:30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .name {
+        font-size:55px;
+    }
+
+    .profile-pic {
+        height:25%;
+        width:25%;
+    }
+
+    .nickname {
+        font-size:15px;
+    }
+
+    .about {
+        padding: 25px;
+        font-family: 'Merriweather', serif;
+        line-height: 2;
+    }
+
+    .myskills {
+        display: block; 
+    }
+ 
+    .skills{
+        padding:10px;
+    }
+
+    .skills-title {
+        font-size: 20px;
+        padding:10px;
+    }
+    
+    .skill {
+        font-size:15px;
+        line-height: 1.5;
+    }
+    
+    .icon {
+        height:50px;
+        width:50px;
+        padding-left:90px;
+    }
+}
